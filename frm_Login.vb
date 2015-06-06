@@ -5,7 +5,7 @@
     End Sub
 
     Private Sub btn_Login_Click(sender As Object, e As EventArgs) Handles btn_Login.Click
-        Me.Hide()
+        Me.Close()
         frm_Main.Show()
     End Sub
 
